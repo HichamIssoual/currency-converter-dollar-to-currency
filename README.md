@@ -20,4 +20,4 @@ The **Currency Converter** is a simple web application that allows users to conv
 
 To view this project live, click the link below:
 
-1. **Link Of project**:
+1. **Link Of project**:https://hichamissoual.github.io/currency-converter-dollar-to-currency/
