@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  height: 100vh;
+}
+.converter {
+  background-color: #f5f6f6;
+  padding: 10px;
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.dollar label {
+  display: block;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.dollar {
+  width: 100%;
+}
+.dollar input {
+  padding: 15px 5px;
+  width: 100%;
+  border: none;
+  margin-bottom: 20px;
+  background-color: #ffff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.dollar input:focus {
+  outline: none;
+}
+.mad {
+  width: 100%;
+  background-color: #eee;
+  padding: 10px;
+  font-size: 20px;
+}
+.mad .text {
+  display: flex;
+  align-items: center;
+}
+.mad span > span {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  min-width: 0px;
+  background-color: orangered;
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  overflow: auto;
+}
+.mad span > span > span {
+  color: black;
+}
+h1 {
+  position: relative;
+  width: fit-content;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #0f96f0;
+  padding: 10px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
